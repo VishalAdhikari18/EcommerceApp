@@ -1,0 +1,130 @@
+ 
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }  
+  .navbar 
+  {
+     border: 1px solid black ;
+     background-color: black;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+  }
+
+  .navbar 
+  {
+    color: white;
+  }
+  .navbar  a
+  {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar h2 
+  {
+     padding-left: 40px;
+     padding-right: 40px;
+  }
+  .quantity-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    max-width: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .cart-container 
+  {
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+  }
+
+  .cart-container button 
+  {
+    width: 150px;
+    margin-top: 15px;
+    
+  }
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .cart-item p {
+    margin: 4px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .quantity {
+    font-style: italic;
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333;
+  }
+
+  /* cart.css */
+
+.cart-item {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
+  

@@ -1,0 +1,35 @@
+/* src/components/Home.css */
+
+.home {
+    background-image: url('https://picsum.photos/seed/picsum/200/300'); /* Dummy image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat : no-repeat ;
+    background-attachment: fixed;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.navbar div 
+{
+    display: flex;
+    flex-direction: row;
+}
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
